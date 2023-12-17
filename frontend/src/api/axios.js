@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 const baseURL = isProduction
   ? `http://backend:5001` //Add production URL here
-  : "http://backend:5001";
+  : "http://localhost:5001";
 
 const defaultOptions = {
   baseURL,
