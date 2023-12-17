@@ -3,8 +3,8 @@ import axiosDefault from "axios";
 const isProduction = process.env.NODE_ENV === "production";
 
 const baseURL = isProduction
-  ? `http://localhost:5001` //Add production URL here
-  : "http://localhost:5001";
+  ? `http://backend:5001` //Add production URL here
+  : "http://backend:5001";
 
 const defaultOptions = {
   baseURL,
